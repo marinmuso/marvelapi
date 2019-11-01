@@ -25,7 +25,7 @@ You can modify this line if you don't want to pull *all* data:
 
   * ```tasks = [cache_data(obj) for obj in MARVEL_OBJ]```
 
-  * If you only wanted to pull `characters` and `creators`, change that line to:
-    * ```tasks = [cache_data('characters'), cache_data('creators')]```
+If you only wanted to pull `characters` and `creators`, change that line to:
+  * ```tasks = [cache_data('characters'), cache_data('creators')]```
 
 
